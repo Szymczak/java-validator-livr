@@ -42,7 +42,8 @@ class CustomFiltersTest {
                   "word1": " wordOne ",
                   "word2": " wordTwo ",
                   "word3": "wordThree "
-                }"""
+                }
+                """
         )
 
         JSONAssert.assertEquals(
