@@ -1,7 +1,7 @@
-package livr.Rules;
+package com.szymczak.livr.Rules;
 
-import livr.FunctionKeeper;
-import livr.LIVRUtils;
+import com.szymczak.livr.FunctionKeeper;
+import com.szymczak.livr.LIVRUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.json.simple.JSONArray;
 

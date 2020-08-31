@@ -1,7 +1,7 @@
-package livr.Rules;
+package com.szymczak.livr.Rules;
 
-import livr.FunctionKeeper;
-import livr.LIVRUtils;
+import com.szymczak.livr.FunctionKeeper;
+import com.szymczak.livr.LIVRUtils;
 
 import java.util.List;
 import java.util.function.Function;

@@ -1,6 +1,6 @@
-package livr
+package com.szymczak.livr
 
-import livr.util.MyFuncClass
+import com.szymczak.livr.util.MyFuncClass
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 import org.skyscreamer.jsonassert.JSONAssert

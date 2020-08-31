@@ -1,3 +1,5 @@
+[![](https://jitci.com/gh/Szymczak/livr-android/svg)](https://jitci.com/gh/Szymczak/livr-android)
+
 # livr-android
 
 Changes in this fork:

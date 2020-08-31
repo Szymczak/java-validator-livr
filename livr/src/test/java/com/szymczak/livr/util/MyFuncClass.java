@@ -1,7 +1,7 @@
-package livr.util;
+package com.szymczak.livr.util;
 
-import livr.FunctionKeeper;
-import livr.LIVRUtils;
+import com.szymczak.livr.FunctionKeeper;
+import com.szymczak.livr.LIVRUtils;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 

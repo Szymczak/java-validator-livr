@@ -1,4 +1,4 @@
-package livr;
+package com.szymczak.livr;
 
 import org.json.simple.JSONObject;
 

@@ -1,6 +1,6 @@
-package livr;
+package com.szymczak.livr;
 
-import livr.Rules.*;
+import com.szymczak.livr.Rules.*;
 
 import java.util.HashMap;
 import java.util.Map;

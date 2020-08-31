@@ -1,4 +1,4 @@
-package livr.util;
+package com.szymczak.livr.util;
 
 import org.json.simple.JSONObject;
 

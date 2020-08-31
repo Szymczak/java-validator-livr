@@ -1,6 +1,6 @@
-package livr
+package com.szymczak.livr
 
-import livr.util.IterationMethods
+import com.szymczak.livr.util.IterationMethods
 import org.assertj.core.api.Assertions.assertThat
 import org.json.simple.JSONArray
 import org.json.simple.JSONObject
