@@ -1,0 +1,3 @@
+include ':livr'
+include ':app'
+rootProject.name = "livr-android"

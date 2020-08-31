@@ -1,4 +1,10 @@
-# java-validator-livr
+# livr-android
+
+Changes in this fork:
+
+- project converted to an android library
+- tests migrated to kotlin
+- dependency on guava removed
 
 # NAME
 LIVR.validator - Lightweight validator supporting Language Independent Validation Rules Specification (LIVR)
