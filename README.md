@@ -1,6 +1,6 @@
-[![](https://jitci.com/gh/Szymczak/livr-android/svg)](https://jitci.com/gh/Szymczak/livr-android)
+[![](https://jitci.com/gh/Szymczak/livr-lib/svg)](https://jitci.com/gh/Szymczak/livr-lib)
 
-# livr-android
+# livr-lib
 
 Changes in this fork:
 
