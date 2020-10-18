@@ -9,7 +9,7 @@ plugins {
 }
 
 group = 'com.github.szymczak'
-version = '1.0.5'
+version = '1.0.6'
 archivesBaseName = 'livr-lib'
 
 sourceCompatibility = 1.8
