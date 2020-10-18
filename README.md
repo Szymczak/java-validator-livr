@@ -8,6 +8,9 @@ Changes in this fork:
 - dependency on guava removed
 - gradle files changes
 
+# Available via Jitpack:
+https://jitpack.io/#Szymczak/livr-lib
+
 # NAME
 LIVR.validator - Lightweight validator supporting Language Independent Validation Rules Specification (LIVR)
 
