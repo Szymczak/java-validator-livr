@@ -4,9 +4,9 @@
 
 Changes in this fork:
 
-- project converted to an android library
 - tests migrated to kotlin
 - dependency on guava removed
+- gradle files changes
 
 # NAME
 LIVR.validator - Lightweight validator supporting Language Independent Validation Rules Specification (LIVR)
@@ -218,7 +218,7 @@ Validates user input. On success returns validData (contains only data that has 
 ```java
 class Main {
     public static void main(String[] args) {
-        JSONObject validaData = validator.validate(input)
+        JSONObject validaData = validator.validate(input);
         
         if (validData!=null) {
             // use validData
