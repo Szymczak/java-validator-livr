@@ -1,6 +1,6 @@
-[![](https://jitci.com/gh/Szymczak/livr-lib/svg)](https://jitci.com/gh/Szymczak/livr-lib)
+[![](https://jitci.com/gh/umotif-public/java-livr-lib/svg)](https://jitci.com/gh/umotif-public/java-livr-lib)
 
-# livr-lib
+# java-livr-lib
 
 Changes in this fork:
 
@@ -9,7 +9,7 @@ Changes in this fork:
 - gradle files changes
 
 # Available via Jitpack:
-https://jitpack.io/#Szymczak/livr-lib
+https://jitpack.io/#umotif-public/java-livr-lib
 
 # NAME
 LIVR.validator - Lightweight validator supporting Language Independent Validation Rules Specification (LIVR)
