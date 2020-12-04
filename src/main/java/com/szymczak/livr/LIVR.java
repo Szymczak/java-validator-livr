@@ -17,6 +17,7 @@ public class LIVR {
         rules.put("any_object", CommonRules.any_object);
         rules.put("not_empty", CommonRules.not_empty);
         rules.put("not_empty_list", CommonRules.not_empty_list);
+        rules.put("list_length", CommonRules.list_length);
 
         rules.put("string", StringRules.string);
         rules.put("eq", StringRules.eq);
