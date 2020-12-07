@@ -192,4 +192,33 @@ class ListLengthTests {
             .isEqualTo("TOO_MANY_ITEMS")
     }
 
+    @Test
+    fun `input which is not a list returns a format error`() {
+        //given
+        val validator = LIVR.validator()
+            .init(
+                """
+                    {
+                      "list": [
+                            {
+                              "list_length": [2,3]
+                            }
+                          ]
+                    } 
+                """, false
+            )
+
+        //when
+        validator.validate(
+            """
+                {
+                  "list": "one"
+                }"""
+        )
+
+        //then
+        assertThat(validator.getErrors()["list"])
+            .isEqualTo("FORMAT_ERROR")
+    }
+
 }
