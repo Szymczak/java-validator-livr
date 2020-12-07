@@ -60,7 +60,7 @@ public class CommonRules {
     private static Function<FunctionKeeper, Object> checkArrayLength(Long minLength, Long maxLength) {
         return (FunctionKeeper wrapper) -> {
             Object value = wrapper.getValue();
-            if (value == null || (value.toString()).equals("")) return "";
+            if (LIVRUtils.isNoValue(wrapper.getValue())) return "";
             if (value instanceof JSONArray) {
                 JSONArray valuesArray = (JSONArray) value;
                 if (valuesArray.size() < minLength) return "TOO_FEW_ITEMS";
@@ -71,5 +71,5 @@ public class CommonRules {
             return "";
         };
     }
-    
+
 }
